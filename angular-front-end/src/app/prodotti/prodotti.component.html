@@ -1,0 +1,12 @@
+<table >
+  <thead>
+    <tr>
+      <th>Nome</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let prodotto of prodotti; let i = index">
+      <td>Item {{i}} - {{ prodotto.nome }}</td>
+    </tr>
+  </tbody>
+</table>
